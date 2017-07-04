@@ -1,0 +1,10 @@
+{
+  "name": "bs-node",
+  "version": "1.0.0",
+  "description": "BuckleScript bindings to Node API",
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^1.8.0"
+  }
+}

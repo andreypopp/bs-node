@@ -1,0 +1,8 @@
+{
+  "name": "bs-node",
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ]
+}
