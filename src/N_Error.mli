@@ -68,7 +68,7 @@ module Errno : sig
   val of_int : int -> t
 end
 
-type io_error = {errno: int}
+type io_error = {errno: Errno.t}
 
 val handle_error : 'a Js.Promise.t -> ('a, Js.Exn.t) Js.Result.t Js.Promise.t
 
